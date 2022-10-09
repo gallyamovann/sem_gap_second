@@ -1,0 +1,24 @@
+{
+  "task_1": {
+    "source_image": "images\\image01.jpg",
+    "result_image": "images\\task_1.png",
+    "threshold": 100
+  },
+  "task_2": {
+    "source_image": "images\\image02.jpg",
+    "result_image": "images\\task_2.png",
+    "params": {
+      "canny": {
+        "sigma": 0.34,
+        "low_threshold": 0.123,
+        "high_threshold": 1.4
+      },
+      "binary_closing_footprint_width": 10
+    }
+  },
+  "task_3": {
+    "source_image_file_first": "images\\image03.jpg",
+    "source_image_file_second": "images\\image04.jpg",
+    "result_image": "images\\task_3_result.png"
+  }
+}
